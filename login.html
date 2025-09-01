@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Student Records Management</title>
+    <link rel="stylesheet" href="login.css" />
+</head>
+
+<body>
+    <header class="header">
+        <p><b>Students Records Management</b></p>
+
+        <img src="student record.jpg" alt="logo">
+
+        <nav>
+            <a href="home.html">Home</a>
+            <a href="#">Student List</a>
+            <a href="#">About</a>
+            <button onclick="window.location.href='reg.html'">Sign Out</button>
+        </nav>
+    </header>
+
+    <form onsubmit="showAlert(event)">
+        <h2>Student Login</h2>
+
+        <label class="required">Email:</label>
+        <input type="text" id="email" name="email" placeholder="Enter your email address" required>
+
+        <label class="required">Password:</label>
+        <input type="password" id="password" name="password" placeholder="Enter your password" required>
+
+        <button type="submit">Login</button>
+
+        <div class="login-link">
+            Don't have an account? <a href="reg.html">Register here</a>
+        </div>
+    </form>
+
+    <footer class="footer">
+        <p>&copy; 2025 Student Records Management | All Rights Reserved</p>
+    </footer>
+
+    <script src="login.js"></script>
+</body>
+
+</html>

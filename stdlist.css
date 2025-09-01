@@ -61,7 +61,7 @@ body {
   table {
     background-color: #ffffff;
     width: 100%;
-    max-width: 900px;
+    max-width: 1200px;
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
     border-collapse: collapse;
     margin: 20px auto 0;
@@ -75,6 +75,21 @@ body {
     background: #007bff;
     color: white;
   }
+
+  .deleteBtn {
+    background-color: #e74c3c; /* red */
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background 0.3s ease;
+}
+
+.deleteBtn:hover {
+    background-color: #c0392b; /* darker red */
+}
 
   .footer {
     position: fixed;

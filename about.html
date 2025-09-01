@@ -2,65 +2,76 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>About - Student Records Management</title>
+  <title>About | Student Records Management</title>
   <link rel="stylesheet" href="about.css" />
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
 </head>
 <body>
-    <header class="header">
-        <p><b>Students Records Management</b></p>
+  <header class="header">
+    <p><b>Students Records Management</b></p>
+    <img src="student record.jpg" alt="logo">
 
-        <img src="student record.jpg" alt="logo">
+    <nav>
+      <a href="home.html">Home</a>
+      <a href="stdlist.html">Student List</a>
+      <a href="about.html" class="active">About</a>
+      <a href="contact.html">Contact</a>
+      <button onclick="window.location.href='reg.html'">Sign Out</button>
+    </nav>
+  </header>
 
-        <nav>
-            <a href="home.html">Home</a>
-            <a href="stdlist.html">Student List</a>
-            <a href="#">About</a>
-            <button onclick="window.location.href='reg.html'">Sign Out</button>
-        </nav>
-    </header>
-  <div class="container">
-    <h1>About Student Records Management</h1>
-    <p>
-      The <strong>Student Records Management System</strong> is a simple and efficient web application 
-      designed to store, manage, and display student details such as <em>name, register number, marks, 
-      and contact information</em>.
-    </p>
+  <!-- Hero Section -->
+  <section class="hero">
+    <h1>About Us</h1>
+    <p>We simplify the way student academic records are managed and accessed.</p>
+  </section>
 
-    <p>
-      This system helps teachers, administrators, and institutions to easily record and view 
-      student academic details in one place, ensuring accuracy and reducing paperwork.
-    </p>
+  <!-- Features Section -->
+  <section class="features">
+    <h2>Why Choose Us?</h2>
+    <div class="feature-grid">
+      <div class="card">
+        <h3>📚 Easy Management</h3>
+        <p>Store and organize student marks in just a few clicks.</p>
+      </div>
+      <div class="card">
+        <h3>⚡ Fast Access</h3>
+        <p>Quickly view student performance with totals and averages.</p>
+      </div>
+      <div class="card">
+        <h3>🔒 Secure</h3>
+        <p>Records are safely stored using local storage technology.</p>
+      </div>
+    </div>
+  </section>
 
-    <h2>Features</h2>
-    <ul>
-      <li>Add new student records through an easy-to-use form.</li>
-      <li>Display all student details in a structured table format.</li>
-      <li>Quick access to important student information.</li>
-      <li>Simple design suitable for beginners and small institutions.</li>
-    </ul>
+  <!-- Team Section -->
+  <section class="team">
+    <h2>Meet Our Team</h2>
+    <div class="team-grid">
+      <div class="member">
+        <img src="https://via.placeholder.com/120" alt="Team member">
+        <h3>Ravin</h3>
+        <p>Developer</p>
+      </div>
+      <div class="member">
+        <img src="https://via.placeholder.com/120" alt="Team member">
+        <h3>Haran</h3>
+        <p>UI Designer</p>
+      </div>
+      <div class="member">
+        <img src="https://via.placeholder.com/120" alt="Team member">
+        <h3>Vino</h3>
+        <p>Project Lead</p>
+      </div>
+    </div>
+  </section>
 
-    <h2>Purpose</h2>
-    <p>
-      The main purpose of this project is to demonstrate how student information can be 
-      maintained digitally using basic web technologies like <strong>HTML, CSS, and JavaScript</strong>.
-    </p>
-
-    <h2>Future Enhancements</h2>
-    <ul>
-      <li>Option to edit or delete student records.</li>
-      <li>Search and filter students by name or register number.</li>
-      <li>Export records to Excel or PDF for offline use.</li>
-      <li>Integration with a database for permanent storage.</li>
-    </ul>
-
-    <p>
-      This project is a starting step toward digital record-keeping in education, making data 
-      management easier, faster, and more reliable.
-    </p>
-  </div>
   <footer class="footer">
     <p>&copy; 2025 Student Records Management | All Rights Reserved</p>
-</footer>
+  </footer>
 </body>
 </html>
+
+

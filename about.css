@@ -61,28 +61,92 @@
       .header button:hover{
         background-color: rgb(169, 0, 0);
       }
-    h1 {
-      color: #007bff;
-    }
-    p {
-      color: #333;
-      font-size: 16px;
-      margin-bottom: 15px;
-    }
-    ul {
-      margin: 15px 0;
-      padding-left: 20px;
-    }
-    li {
-      margin: 8px 0;
-    }
-    .container {
 
-      background: #fff;
-      padding: 25px;
-      border-radius: 10px;
-      box-shadow: 0 0 10px rgba(0,0,0,0.1);
-    }
+
+
+      .hero {
+        background: linear-gradient(135deg, #3498db, #2c3e50);
+        color: white;
+        text-align: center;
+        padding: 60px 20px;
+      }
+      
+      .hero h1 {
+        font-size: 2.5rem;
+        margin-bottom: 10px;
+      }
+      
+      .hero p {
+        font-size: 1.2rem;
+      }
+      
+      /* Features Section */
+      .features {
+        padding: 40px 20px;
+        text-align: center;
+      }
+      
+      .feature-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+        gap: 20px;
+        margin-top: 20px;
+      }
+      
+      .card {
+        background: white;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+        transition: transform 0.3s ease;
+      }
+      
+      .card:hover {
+        transform: translateY(-5px);
+      }
+      
+      .card h3 {
+        margin-bottom: 10px;
+        color: #3498db;
+      }
+      
+      /* Team Section */
+      .team {
+        padding: 40px 20px;
+        background: #ecf0f1;
+        text-align: center;
+      }
+      
+      .team-grid {
+        display: flex;
+        gap: 20px;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-top: 20px;
+      }
+      
+      .member {
+        background: white;
+        padding: 15px;
+        border-radius: 10px;
+        width: 180px;
+        box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      }
+      
+      .member img {
+        border-radius: 50%;
+        margin-bottom: 10px;
+      }
+      
+      .member h3 {
+        margin: 5px 0;
+        color: #2c3e50;
+      }
+      
+      .member p {
+        color: #7f8c8d;
+      }
+      
 
     .footer {
         position: fixed;

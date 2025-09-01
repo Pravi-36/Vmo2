@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Student Records Management</title>
+    <link rel="stylesheet" href="home.css" />
+</head>
+
+<body>
+    <header class="header">
+        <p><b>Students Records Management</b></p>
+
+        <img src="student record.jpg" alt="logo">
+
+        <nav>
+            <a href="#">Home</a>
+            <a href="stdlist.html">Student List</a>
+            <a href="about.html">About</a>
+            <button onclick="window.location.href='reg.html'">Sign Out</button>
+        </nav>
+    </header>
+    <form>
+        <h2>Student Mark Records</h2>
+
+        <label class="required">Student Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+
+        <label class="required">Register Number:</label>
+        <input type="text" id="regno" name="regno" placeholder="Enter your Register number" required>
+
+        <label class="required">Mathematics:</label>
+        <input type="number" id="mark1" name="mark1" placeholder="Enter the mark out of 100" required>
+
+        <label class="required">Physics:</label>
+        <input type="number" id="mark2" placeholder="Enter the mark out of 100" required>
+
+        <label class="required">Chemistry:</label>
+        <input type="number" id="mark3" name="mark3" placeholder="Enter the mark out of 100" required>
+
+        <button type="submit">Submit</button>
+    </form>
+
+    <footer class="footer">
+        <p>&copy; 2025 Student Records Management | All Rights Reserved</p>
+    </footer>
+
+    <script src="reg.js"></script>
+</body>
+
+</html>
